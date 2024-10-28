@@ -34,6 +34,11 @@ from typing import Callable, Iterable
 
 # TODO: Implement for Task 0.1.
 
+def mul(a, b):
+    return a * b
+
+def sigmoid(x: float) -> float:
+    return 1 / (1 + math.exp(x)**(-x))
 
 # ## Task 0.3
 
